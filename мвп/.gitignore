@@ -41,3 +41,6 @@ next-env.d.ts
 /.wrangler/
 /outputs/
 /work/
+
+# Deployment configuration is local until the team account is connected
+/deployment/cloudflare.json

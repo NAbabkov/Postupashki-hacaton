@@ -2,9 +2,10 @@ import ts from 'typescript';
 import {mkdirSync,readFileSync,writeFileSync}from 'node:fs';
 import {spawnSync}from 'node:child_process';
 mkdirSync('tmp',{recursive:true});
-for(const [src,out]of [['lib/attribution.ts','attribution.mjs'],['lib/reporting.ts','reporting.mjs'],['scripts/test_attribution.ts','test-attribution.mjs'],['scripts/test_reporting.ts','test-reporting.mjs']]){
- let text=readFileSync(src,'utf8').replaceAll("'./attribution'","'./attribution.mjs'").replaceAll("'../lib/attribution'","'./attribution.mjs'").replaceAll("'../lib/reporting'","'./reporting.mjs'");
+const libs=['attribution','reporting','bot-referral','bot-import','telegram-public','publication-status','bot-funnel','calendar-export','request-limit','funnel-data','funnel-report','payments'],tests=['attribution','reporting','calendar_v3','funnel'];
+for(const src of [...libs.map(n=>'lib/'+n+'.ts'),...tests.map(n=>'scripts/test_'+n+'.ts')]){
+ let text=readFileSync(src,'utf8');for(const lib of libs)text=text.replaceAll("'./"+lib+"'","'./"+lib+".mjs'").replaceAll("'../lib/"+lib+"'","'./"+lib+".mjs'");
  if(src.includes('test_'))text=text.replace("import seed from '../data/seed.json';","import {readFileSync}from 'node:fs';const seed=JSON.parse(readFileSync(new URL('../data/seed.json',import.meta.url),'utf8'));");
- writeFileSync('tmp/'+out,ts.transpileModule(text,{compilerOptions:{module:ts.ModuleKind.ESNext,target:ts.ScriptTarget.ES2022}}).outputText);
+ const name=src.split('/').at(-1).replace('.ts','.mjs');writeFileSync('tmp/'+name,ts.transpileModule(text,{compilerOptions:{module:ts.ModuleKind.ESNext,target:ts.ScriptTarget.ES2022}}).outputText);
 }
-const result=spawnSync(process.execPath,['--test','tmp/test-attribution.mjs','tmp/test-reporting.mjs'],{stdio:'inherit'});process.exit(result.status??1);
+const result=spawnSync(process.execPath,['--test',...tests.map(n=>'tmp/test_'+n+'.mjs')],{stdio:'inherit'});process.exit(result.status??1);

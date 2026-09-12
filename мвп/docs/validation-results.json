@@ -46,7 +46,7 @@
       "model": "first",
       "results": [
         {
-          "campaign": "Набор: аналитика",
+          "campaign": "Вебинар «Первый оффер»",
           "course": "Аналитика про",
           "netRevenue": 64950,
           "ads": 18000,
@@ -58,7 +58,7 @@
           "ROMI": 99.335
         },
         {
-          "campaign": "Набор: ML",
+          "campaign": "Проект в портфолио",
           "course": "ML про",
           "netRevenue": 59180,
           "ads": 22000,
@@ -70,7 +70,7 @@
           "ROMI": 45.64653061224491
         },
         {
-          "campaign": "Набор: Backend",
+          "campaign": "Неделя технических интервью",
           "course": "Backend про",
           "netRevenue": 47970,
           "ads": 26000,
@@ -82,7 +82,7 @@
           "ROMI": 3.6467857142857216
         },
         {
-          "campaign": "Набор: алгоритмы",
+          "campaign": "Разбор задач собеседований",
           "course": "Алгоритмы про",
           "netRevenue": 24612.5,
           "ads": 14000,
@@ -92,6 +92,30 @@
           "paidLeads": 3,
           "ROAS": 1.7580357142857144,
           "ROMI": -7.703999999999993
+        },
+        {
+          "campaign": "Карьерный старт · сентябрь",
+          "course": "AI агенты",
+          "netRevenue": 12990,
+          "ads": 16000,
+          "marketing": 17107.69230769231,
+          "contribution": 8333.2,
+          "leads": 2,
+          "paidLeads": 1,
+          "ROAS": 0.811875,
+          "ROMI": -51.28974820143885
+        },
+        {
+          "campaign": "Карьерный старт · сентябрь",
+          "course": "Backend старт",
+          "netRevenue": 8950,
+          "ads": 10000,
+          "marketing": 10692.307692307691,
+          "contribution": 5565,
+          "leads": 2,
+          "paidLeads": 1,
+          "ROAS": 0.895,
+          "ROMI": -47.953237410071935
         },
         {
           "campaign": "Источник неизвестен",
@@ -106,7 +130,19 @@
           "ROMI": null
         },
         {
-          "campaign": "Аналитика: тест новой аудитории",
+          "campaign": "Следующий набор: Аналитика старт",
+          "course": "Аналитика старт",
+          "netRevenue": 0,
+          "ads": 11000,
+          "marketing": 11000,
+          "contribution": 0,
+          "leads": 0,
+          "paidLeads": 0,
+          "ROAS": 0,
+          "ROMI": -100
+        },
+        {
+          "campaign": "Тест новой аудитории",
           "course": "Аналитика про",
           "netRevenue": 0,
           "ads": 4500,
@@ -116,6 +152,18 @@
           "paidLeads": 0,
           "ROAS": 0,
           "ROMI": -100
+        },
+        {
+          "campaign": "Источник неизвестен",
+          "course": "Курс не указан",
+          "netRevenue": 0,
+          "ads": 0,
+          "marketing": 0,
+          "contribution": 0,
+          "leads": 1,
+          "paidLeads": 0,
+          "ROAS": null,
+          "ROMI": null
         }
       ]
     },
@@ -123,7 +171,7 @@
       "model": "last",
       "results": [
         {
-          "campaign": "Набор: ML",
+          "campaign": "Проект в портфолио",
           "course": "ML про",
           "netRevenue": 59180,
           "ads": 22000,
@@ -135,7 +183,7 @@
           "ROMI": 45.64653061224491
         },
         {
-          "campaign": "Набор: аналитика",
+          "campaign": "Вебинар «Первый оффер»",
           "course": "Аналитика про",
           "netRevenue": 51960,
           "ads": 18000,
@@ -147,7 +195,7 @@
           "ROMI": 59.46799999999999
         },
         {
-          "campaign": "Набор: Backend",
+          "campaign": "Неделя технических интервью",
           "course": "Backend про",
           "netRevenue": 47970,
           "ads": 26000,
@@ -159,7 +207,7 @@
           "ROMI": 3.6467857142857216
         },
         {
-          "campaign": "Набор: алгоритмы",
+          "campaign": "Разбор задач собеседований",
           "course": "Алгоритмы про",
           "netRevenue": 24612.5,
           "ads": 14000,
@@ -171,7 +219,19 @@
           "ROMI": -7.703999999999993
         },
         {
-          "campaign": "Аналитика: тест новой аудитории",
+          "campaign": "Карьерный старт · сентябрь",
+          "course": "AI агенты",
+          "netRevenue": 12990,
+          "ads": 16000,
+          "marketing": 17107.69230769231,
+          "contribution": 8333.2,
+          "leads": 2,
+          "paidLeads": 1,
+          "ROAS": 0.811875,
+          "ROMI": -51.28974820143885
+        },
+        {
+          "campaign": "Тест новой аудитории",
           "course": "Аналитика про",
           "netRevenue": 12990,
           "ads": 4500,
@@ -183,6 +243,18 @@
           "ROMI": 59.46799999999999
         },
         {
+          "campaign": "Карьерный старт · сентябрь",
+          "course": "Backend старт",
+          "netRevenue": 8950,
+          "ads": 10000,
+          "marketing": 10692.307692307691,
+          "contribution": 5565,
+          "leads": 2,
+          "paidLeads": 1,
+          "ROAS": 0.895,
+          "ROMI": -47.953237410071935
+        },
+        {
           "campaign": "Источник неизвестен",
           "course": "AI агенты",
           "netRevenue": 8950,
@@ -190,6 +262,30 @@
           "marketing": 0,
           "contribution": 5586,
           "leads": 0,
+          "paidLeads": 0,
+          "ROAS": null,
+          "ROMI": null
+        },
+        {
+          "campaign": "Следующий набор: Аналитика старт",
+          "course": "Аналитика старт",
+          "netRevenue": 0,
+          "ads": 11000,
+          "marketing": 11000,
+          "contribution": 0,
+          "leads": 0,
+          "paidLeads": 0,
+          "ROAS": 0,
+          "ROMI": -100
+        },
+        {
+          "campaign": "Источник неизвестен",
+          "course": "Курс не указан",
+          "netRevenue": 0,
+          "ads": 0,
+          "marketing": 0,
+          "contribution": 0,
+          "leads": 1,
           "paidLeads": 0,
           "ROAS": null,
           "ROMI": null
@@ -200,7 +296,7 @@
       "model": "linear",
       "results": [
         {
-          "campaign": "Набор: ML",
+          "campaign": "Проект в портфолио",
           "course": "ML про",
           "netRevenue": 59180,
           "ads": 22000,
@@ -212,19 +308,19 @@
           "ROMI": 45.64653061224491
         },
         {
-          "campaign": "Набор: аналитика",
+          "campaign": "Вебинар «Первый оффер»",
           "course": "Аналитика про",
-          "netRevenue": 51960,
+          "netRevenue": 56290,
           "ads": 18000,
           "marketing": 20000,
-          "contribution": 31893.600000000002,
+          "contribution": 34551.4,
           "leads": 12,
           "paidLeads": 5,
-          "ROAS": 2.8866666666666667,
-          "ROMI": 59.46800000000001
+          "ROAS": 3.127222222222222,
+          "ROMI": 72.757
         },
         {
-          "campaign": "Набор: Backend",
+          "campaign": "Неделя технических интервью",
           "course": "Backend про",
           "netRevenue": 47970,
           "ads": 26000,
@@ -236,7 +332,7 @@
           "ROMI": 3.6467857142857216
         },
         {
-          "campaign": "Набор: алгоритмы",
+          "campaign": "Разбор задач собеседований",
           "course": "Алгоритмы про",
           "netRevenue": 24612.5,
           "ads": 14000,
@@ -248,16 +344,28 @@
           "ROMI": -7.703999999999993
         },
         {
-          "campaign": "Аналитика: тест новой аудитории",
-          "course": "Аналитика про",
+          "campaign": "Карьерный старт · сентябрь",
+          "course": "AI агенты",
           "netRevenue": 12990,
-          "ads": 4500,
-          "marketing": 5000,
-          "contribution": 7973.4,
-          "leads": 0,
-          "paidLeads": 0,
-          "ROAS": 2.8866666666666667,
-          "ROMI": 59.46799999999999
+          "ads": 16000,
+          "marketing": 17107.69230769231,
+          "contribution": 8333.2,
+          "leads": 2,
+          "paidLeads": 1,
+          "ROAS": 0.811875,
+          "ROMI": -51.28974820143885
+        },
+        {
+          "campaign": "Карьерный старт · сентябрь",
+          "course": "Backend старт",
+          "netRevenue": 8950,
+          "ads": 10000,
+          "marketing": 10692.307692307691,
+          "contribution": 5565,
+          "leads": 2,
+          "paidLeads": 1,
+          "ROAS": 0.895,
+          "ROMI": -47.953237410071935
         },
         {
           "campaign": "Источник неизвестен",
@@ -270,6 +378,42 @@
           "paidLeads": 0,
           "ROAS": null,
           "ROMI": null
+        },
+        {
+          "campaign": "Тест новой аудитории",
+          "course": "Аналитика про",
+          "netRevenue": 8660,
+          "ads": 4500,
+          "marketing": 5000,
+          "contribution": 5315.599999999999,
+          "leads": 0,
+          "paidLeads": 0,
+          "ROAS": 1.9244444444444444,
+          "ROMI": 6.311999999999989
+        },
+        {
+          "campaign": "Следующий набор: Аналитика старт",
+          "course": "Аналитика старт",
+          "netRevenue": 0,
+          "ads": 11000,
+          "marketing": 11000,
+          "contribution": 0,
+          "leads": 0,
+          "paidLeads": 0,
+          "ROAS": 0,
+          "ROMI": -100
+        },
+        {
+          "campaign": "Источник неизвестен",
+          "course": "Курс не указан",
+          "netRevenue": 0,
+          "ads": 0,
+          "marketing": 0,
+          "contribution": 0,
+          "leads": 1,
+          "paidLeads": 0,
+          "ROAS": null,
+          "ROMI": null
         }
       ]
     },
@@ -277,7 +421,7 @@
       "model": "decay",
       "results": [
         {
-          "campaign": "Набор: ML",
+          "campaign": "Проект в портфолио",
           "course": "ML про",
           "netRevenue": 59180,
           "ads": 22000,
@@ -289,19 +433,19 @@
           "ROMI": 45.64653061224491
         },
         {
-          "campaign": "Набор: аналитика",
+          "campaign": "Вебинар «Первый оффер»",
           "course": "Аналитика про",
-          "netRevenue": 51921.70322869624,
+          "netRevenue": 53491.77862345858,
           "ads": 18000,
           "marketing": 20000,
-          "contribution": 31870.093034925834,
+          "contribution": 32833.82199201576,
           "leads": 12,
           "paidLeads": 5,
-          "ROAS": 2.8845390682609025,
-          "ROMI": 59.35046517462917
+          "ROAS": 2.971765479081032,
+          "ROMI": 64.16910996007879
         },
         {
-          "campaign": "Набор: Backend",
+          "campaign": "Неделя технических интервью",
           "course": "Backend про",
           "netRevenue": 47970,
           "ads": 26000,
@@ -313,7 +457,7 @@
           "ROMI": 3.6467857142857216
         },
         {
-          "campaign": "Набор: алгоритмы",
+          "campaign": "Разбор задач собеседований",
           "course": "Алгоритмы про",
           "netRevenue": 24612.5,
           "ads": 14000,
@@ -325,16 +469,40 @@
           "ROMI": -7.703999999999993
         },
         {
-          "campaign": "Аналитика: тест новой аудитории",
+          "campaign": "Карьерный старт · сентябрь",
+          "course": "AI агенты",
+          "netRevenue": 12990,
+          "ads": 16000,
+          "marketing": 17107.69230769231,
+          "contribution": 8333.2,
+          "leads": 2,
+          "paidLeads": 1,
+          "ROAS": 0.811875,
+          "ROMI": -51.28974820143885
+        },
+        {
+          "campaign": "Тест новой аудитории",
           "course": "Аналитика про",
-          "netRevenue": 13028.296771303758,
+          "netRevenue": 11458.221376541413,
           "ads": 4500,
           "marketing": 5000,
-          "contribution": 7996.906965074163,
+          "contribution": 7033.178007984241,
           "leads": 0,
           "paidLeads": 0,
-          "ROAS": 2.8951770602897238,
-          "ROMI": 59.93813930148326
+          "ROAS": 2.5462714170092027,
+          "ROMI": 40.66356015968482
+        },
+        {
+          "campaign": "Карьерный старт · сентябрь",
+          "course": "Backend старт",
+          "netRevenue": 8950,
+          "ads": 10000,
+          "marketing": 10692.307692307691,
+          "contribution": 5565,
+          "leads": 2,
+          "paidLeads": 1,
+          "ROAS": 0.895,
+          "ROMI": -47.953237410071935
         },
         {
           "campaign": "Источник неизвестен",
@@ -344,6 +512,30 @@
           "marketing": 0,
           "contribution": 5586,
           "leads": 0,
+          "paidLeads": 0,
+          "ROAS": null,
+          "ROMI": null
+        },
+        {
+          "campaign": "Следующий набор: Аналитика старт",
+          "course": "Аналитика старт",
+          "netRevenue": 0,
+          "ads": 11000,
+          "marketing": 11000,
+          "contribution": 0,
+          "leads": 0,
+          "paidLeads": 0,
+          "ROAS": 0,
+          "ROMI": -100
+        },
+        {
+          "campaign": "Источник неизвестен",
+          "course": "Курс не указан",
+          "netRevenue": 0,
+          "ads": 0,
+          "marketing": 0,
+          "contribution": 0,
+          "leads": 1,
           "paidLeads": 0,
           "ROAS": null,
           "ROMI": null

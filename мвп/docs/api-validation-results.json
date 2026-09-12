@@ -1,24 +1,187 @@
 {
-  "passed": true,
-  "count": 17,
+  "version": "funnel-v1",
+  "total": 45,
+  "passed": 45,
   "checks": [
-    "Case data and D1 loaded",
-    "Historical placement immutable",
-    "Invalid dates, costs and URLs rejected",
-    "Course budget shares must conserve 100 percent",
-    "Foreign browser origin rejected",
-    "Trusted payment import needs authentication",
-    "Historical links and direct form without visitor rejected",
-    "Unique link records first-party visitor and redirects to course form",
-    "Second campaign link preserves the same visitor",
-    "Form binds course and first source; repeated form is idempotent",
-    "Manager stage persists; paid status requires registered payment",
-    "Payment matches its course opportunity and is not doubled",
-    "Partial refund persists without deleting original payment",
-    "Links are released once per placement; planned and historical redirects remain inactive",
-    "Post association and release date persist; a source with visits cannot be reassigned",
-    "Campaign metadata and other marketing costs saved",
-    "Course unit economics saved and validated"
-  ],
-  "environment": "local D1; fictional link visitor/form/payments only; no external bot or payment calls"
+    {
+      "name": "Public read and D1 ready",
+      "ok": true
+    },
+    {
+      "name": "Public writes protected",
+      "ok": true
+    },
+    {
+      "name": "Public bot import protected",
+      "ok": true
+    },
+    {
+      "name": "Public scheduler protected",
+      "ok": true
+    },
+    {
+      "name": "Login rejects cross-origin",
+      "ok": true
+    },
+    {
+      "name": "Admin session uses HttpOnly cookie",
+      "ok": true
+    },
+    {
+      "name": "Admin read recognized",
+      "ok": true
+    },
+    {
+      "name": "Authenticated writes reject cross-origin",
+      "ok": true
+    },
+    {
+      "name": "Authenticated workspace body limit",
+      "ok": true
+    },
+    {
+      "name": "Machine publication sync uses dedicated secret",
+      "ok": true
+    },
+    {
+      "name": "Missing campaign selection rejected",
+      "ok": true
+    },
+    {
+      "name": "Placement + campaign save atomic",
+      "ok": true
+    },
+    {
+      "name": "Forged publication ignored; defaults generated",
+      "ok": true
+    },
+    {
+      "name": "Source and short start issued",
+      "ok": true
+    },
+    {
+      "name": "Link issue idempotent",
+      "ok": true
+    },
+    {
+      "name": "Preview redirects to bot without cookie/event",
+      "ok": true
+    },
+    {
+      "name": "Unpublished issued link saves web_visit before bot redirect",
+      "ok": true
+    },
+    {
+      "name": "Historical redirect disabled",
+      "ok": true
+    },
+    {
+      "name": "Timezone required for naive dates",
+      "ok": true
+    },
+    {
+      "name": "Preview exact schema, mappings and privacy",
+      "ok": true
+    },
+    {
+      "name": "Commit normalized bot events, HMAC identity only",
+      "ok": true
+    },
+    {
+      "name": "Purchase click never creates Payment or Lead",
+      "ok": true
+    },
+    {
+      "name": "Repeated CSV idempotent",
+      "ok": true
+    },
+    {
+      "name": "BotEvent/PurchaseIntent projection, no raw Telegram ID",
+      "ok": true
+    },
+    {
+      "name": "Old CRM actions explicitly deprecated",
+      "ok": true
+    },
+    {
+      "name": "Public Payment creation protected",
+      "ok": true
+    },
+    {
+      "name": "Public refund protected",
+      "ok": true
+    },
+    {
+      "name": "Payment rejects identity mismatch",
+      "ok": true
+    },
+    {
+      "name": "Payment rejects missing/foreign intent",
+      "ok": true
+    },
+    {
+      "name": "Payment validates course and chronology",
+      "ok": true
+    },
+    {
+      "name": "Payment requires explicit unknown scenario",
+      "ok": true
+    },
+    {
+      "name": "Payment validates date/money",
+      "ok": true
+    },
+    {
+      "name": "Confirmed Payment stored separately with intent/userKey",
+      "ok": true
+    },
+    {
+      "name": "Payment ID duplicate denied",
+      "ok": true
+    },
+    {
+      "name": "Intent paid derived from Payment without CRM stage",
+      "ok": true
+    },
+    {
+      "name": "Unknown payment keeps null user/source association",
+      "ok": true
+    },
+    {
+      "name": "Partial refund lowers net but keeps confirmed buyer",
+      "ok": true
+    },
+    {
+      "name": "Refund range validation",
+      "ok": true
+    },
+    {
+      "name": "Full refund records zero net and retains past buyer",
+      "ok": true
+    },
+    {
+      "name": "Confirmed payment survives workspace reload",
+      "ok": true
+    },
+    {
+      "name": "Public view removes bot identity keys and private notes",
+      "ok": true
+    },
+    {
+      "name": "Edit preserves stable source and ignores publication spoof",
+      "ok": true
+    },
+    {
+      "name": "Source channel cannot change after release",
+      "ok": true
+    },
+    {
+      "name": "Cancelled link stops redirect",
+      "ok": true
+    },
+    {
+      "name": "Logout closes write access",
+      "ok": true
+    }
+  ]
 }

@@ -1,23 +1,15 @@
-import {workspace,batchSave,save}from '@/lib/store';
-import {env}from 'cloudflare:workers';
-import type{Payment}from '@/lib/types';
+import {workspace,batchSave}from '@/lib/store';
+import {runtimeVars,hmac}from '@/lib/auth';
+import {confirmedPayment,PaymentError}from '@/lib/payments';
+import {limitedBody}from '@/lib/request-limit';
 export async function POST(req:Request){
- const key=(env as unknown as Record<string,string|undefined>).INGEST_KEY;
- if(!key||req.headers.get('authorization')!=='Bearer '+key)return Response.json({error:'Unauthorized'},{status:401});
- if(Number(req.headers.get('content-length')??0)>100000)return Response.json({error:'Too large'},{status:413});
- try{
-  const body=await req.json() as {type:string;lead_id:string;payment_id:string;course:string;amount:number;at:string};
-  if(body.type==='payment'){
-   const data=await workspace(),lead=data.leads.find(l=>l.mode==='live'&&l.id===body.lead_id);
-   if(!lead)return Response.json({error:'Неизвестный lead_id; сопоставление не выполняется по догадке.'},{status:400});
-   if(typeof body.payment_id!=='string'||body.payment_id.length<1||body.payment_id.length>100||!data.courses.includes(body.course)||!Number.isFinite(body.amount)||body.amount<=0||typeof body.at!=='string'||!Number.isFinite(Date.parse(body.at))||!/(Z|[+-]\d\d:\d\d)$/.test(body.at))return Response.json({error:'Некорректная оплата: ID, курс, сумма и время с часовым поясом обязательны.'},{status:400});
-   if(lead.course&&lead.course!==body.course)return Response.json({error:'Курс оплаты не соответствует заявке.'},{status:400});
-   const id='livepay_'+body.payment_id,old=data.payments.find(p=>p.id===id);
-   if(old){if(old.userId!==lead.userId||old.amount!==body.amount||old.course!==body.course)return Response.json({error:'Конфликт повторного payment_id'},{status:409});return Response.json({ok:true,duplicate:true});}
-   const p:Payment={id,mode:'live',userId:lead.userId,course:body.course,amount:body.amount,at:body.at,leadId:lead.id,source:'trusted manager/CRM ingress',status:'paid'};
-   await batchSave([{kind:'payment',value:p}]);await save('lead',{...lead,course:body.course,stage:'paid'});
-   return Response.json({ok:true});
-  }
-  return Response.json({error:'Неизвестный тип события'},{status:400});
- }catch{return Response.json({error:'Не удалось обработать событие; проверьте схему и серверные ключи.'},{status:500});}
+ const key=runtimeVars().INGEST_KEY,provided=req.headers.get('authorization')?.replace(/^Bearer /,'')??'';
+ if(!key||!provided||await hmac(key,provided)!==await hmac(key,key))return Response.json({error:'Unauthorized'},{status:401});
+ try{const b=JSON.parse(new TextDecoder().decode(await limitedBody(req,16000))) as {type:string;purchase_intent_id:string;payment_id:string;course:string;amount:number;at:string};
+  if(b.type!=='payment')return Response.json({error:'Поддерживается только подтверждённая payment.'},{status:400});
+  const data=await workspace();if(!data.integration?.databaseReady)return Response.json({error:'Хранилище недоступно.'},{status:503});
+  const old=data.payments.find(p=>p.id===b.payment_id);if(old){if(old.mode!=='live'||old.purchaseIntentId!==b.purchase_intent_id||old.amount!==b.amount||old.course!==b.course)return Response.json({error:'Конфликт payment_id'},{status:409});return Response.json({ok:true,duplicate:true});}
+  const p=confirmedPayment(data,{id:b.payment_id,mode:'live',purchaseIntentId:b.purchase_intent_id,course:b.course,amount:b.amount,at:b.at},'payment_import');
+  const r=await batchSave([{kind:'payment',value:p}]);return Response.json({ok:true,duplicate:!r[0].meta.changes});
+ }catch(e){return Response.json({error:e instanceof Error?e.message:'Ошибка оплаты.'},{status:e instanceof PaymentError?e.status:400});}
 }

@@ -1,0 +1,2 @@
+import {importRequest} from '@/lib/bot-import-request';
+export async function POST(req:Request){try{const r=await importRequest(req);if(r.response)return r.response;const {events,...preview}=r.normalized!;return Response.json({...preview,validRows:events.length},{headers:{'Cache-Control':'no-store'}});}catch(e){return Response.json({error:e instanceof Error?e.message:'Ошибка CSV.'},{status:400,headers:{'Cache-Control':'no-store'}});}}

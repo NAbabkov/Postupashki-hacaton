@@ -1,0 +1,79 @@
+{
+  "url": "https://demo-komandy-postupili.postupili-demo.workers.dev",
+  "checks": [
+    {
+      "name": "Homepage public HTTPS, no sign-in redirect",
+      "ok": true
+    },
+    {
+      "name": "Final navigation: Calendar / Funnel / Results",
+      "ok": true
+    },
+    {
+      "name": "Homepage assets available",
+      "ok": true
+    },
+    {
+      "name": "Public read API, actual D1 and canonical origin",
+      "ok": true
+    },
+    {
+      "name": "Normalized BotEvent/PurchaseIntent views, no CRM leads",
+      "ok": true
+    },
+    {
+      "name": "Live Telegram identities are opaque HMAC keys",
+      "ok": true
+    },
+    {
+      "name": "No secrets in public API/HTML/assets",
+      "ok": true
+    },
+    {
+      "name": "Public workspace write denied",
+      "ok": true
+    },
+    {
+      "name": "Public CSV import denied",
+      "ok": true
+    },
+    {
+      "name": "Public confirmed Payment write denied",
+      "ok": true
+    },
+    {
+      "name": "Public refund write denied",
+      "ok": true
+    },
+    {
+      "name": "Public sync denied",
+      "ok": true
+    },
+    {
+      "name": "Preview redirects to configured bot without cookie",
+      "ok": true
+    },
+    {
+      "name": "Historical /r disabled",
+      "ok": true
+    },
+    {
+      "name": "Solution PDF available publicly",
+      "ok": true
+    },
+    {
+      "name": "Team admin sign-in works",
+      "ok": true
+    },
+    {
+      "name": "Team session authorized on public hosting",
+      "ok": true
+    },
+    {
+      "name": "Production machine scheduler endpoint works",
+      "ok": true
+    }
+  ],
+  "total": 18,
+  "passed": 18
+}

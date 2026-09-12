@@ -1,5 +1,7 @@
 import {env} from 'cloudflare:workers';
 import seed from '@/data/seed.json';
+import {botReferral,DEFAULT_BOT} from './bot-referral';
+import {normalizeWorkspace} from './funnel-data';
 import type {Workspace,Placement,Touch,Payment,Lead,Settings,Campaign,CourseEconomics} from './types';
 type Kind='placement'|'event'|'payment'|'lead'|'settings'|'campaign'|'economics';
 export function binding(){if(!env.DB)throw new Error('Хранилище не подключено. Изменения не сохранены.');return env.DB;}
@@ -8,7 +10,7 @@ export async function workspace():Promise<Workspace>{
  base.campaigns??=[];base.economics??=[];
  let ready=true;
  try{
-  const result=await binding().prepare('SELECT kind,payload FROM workspace_records ORDER BY updated_at ASC LIMIT 10000').all<{kind:Kind;payload:string}>();
+  const result=await binding().prepare('SELECT kind,payload FROM workspace_records ORDER BY updated_at ASC').all<{kind:Kind;payload:string}>();
   const keys={placement:'placements',event:'events',payment:'payments',lead:'leads',campaign:'campaigns',economics:'economics'} as const;
   for(const r of result.results){
    const value=JSON.parse(r.payload);
@@ -18,8 +20,10 @@ export async function workspace():Promise<Workspace>{
   }
  }catch{ready=false;}
  const vars=env as unknown as Record<string,string|undefined>;
- base.integration={databaseReady:ready,linksReady:ready,paymentsReady:!!vars.INGEST_KEY};
- return base;
+ base.settings.botUsername=vars.TELEGRAM_BOT_USERNAME??DEFAULT_BOT;
+ for(const p of base.placements.filter(p=>p.mode!=='historical'&&p.linkIssuedAt)){try{const r=await botReferral(p,base.settings.botUsername);Object.assign(p,{botTrackingKey:r.botTrackingKey,botSourceCode:r.botSourceCode,botStartParam:r.botStartParam});}catch{/* Invalid legacy links must be repaired explicitly, not truncated. */}}
+ base.integration={databaseReady:ready,linksReady:ready,paymentsReady:!!vars.INGEST_KEY,publicAppUrl:vars.PUBLIC_APP_URL??'',botImportReady:!!vars.BOT_IMPORT_SALT&&vars.BOT_IMPORT_SALT.length>=32};
+ return normalizeWorkspace(base);
 }
 export async function save(kind:Kind,value:Placement|Touch|Payment|Lead|Settings|Campaign|CourseEconomics,replace=true){
  const v=value as {id?:string;mode?:string;userId?:string};
