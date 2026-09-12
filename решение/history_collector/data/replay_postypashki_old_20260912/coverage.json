@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "data_origin": "real_public_telegram_html",
+  "source_type": "telegram_public_web",
+  "channel_username": "postypashki_old",
+  "mode": "offline_replay",
+  "replay_from": "/Users/a1/Documents/стартапы/хакатон поступашки/решение/history_collector/data/live_postypashki_old_20260912",
+  "started_at": "2026-09-12T08:05:46+00:00",
+  "finished_at": "2026-09-12T08:05:46+00:00",
+  "requested_range": {
+    "start": "2026-08-04",
+    "end": "2026-09-10",
+    "date_timezone": "UTC",
+    "inclusive": true
+  },
+  "max_pages": 6,
+  "pages_requested": 5,
+  "pages_saved": 5,
+  "seen_min_published_at": "2026-07-11T16:04:31+00:00",
+  "seen_max_published_at": "2026-09-11T13:37:42+00:00",
+  "unique_observed_posts": 86,
+  "posts_in_requested_range": 54,
+  "undated_posts": 0,
+  "duplicate_containers": 0,
+  "observed_older_navigation_exhausted": false,
+  "requested_lower_bound_reached": true,
+  "stop_reason": "requested_lower_bound_reached",
+  "unfollowed_observed_next_url": "https://t.me/s/postypashki_old?before=1780",
+  "full_archive_claimed": false,
+  "gaps": "unknown",
+  "observed_id_discontinuities": [
+    {
+      "after_message_id": 1780,
+      "before_message_id": 1782,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 1782,
+      "before_message_id": 1784,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 1785,
+      "before_message_id": 1787,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 1789,
+      "before_message_id": 1793,
+      "missing_id_count": 3,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 1794,
+      "before_message_id": 1796,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 1802,
+      "before_message_id": 1804,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 1806,
+      "before_message_id": 1809,
+      "missing_id_count": 2,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 1809,
+      "before_message_id": 1811,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 1812,
+      "before_message_id": 1815,
+      "missing_id_count": 2,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 1815,
+      "before_message_id": 1818,
+      "missing_id_count": 2,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 1819,
+      "before_message_id": 1823,
+      "missing_id_count": 3,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 1831,
+      "before_message_id": 1833,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 1834,
+      "before_message_id": 1836,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 1841,
+      "before_message_id": 1843,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 1849,
+      "before_message_id": 1852,
+      "missing_id_count": 2,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 1857,
+      "before_message_id": 1859,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 1861,
+      "before_message_id": 1863,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 1870,
+      "before_message_id": 1872,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 1872,
+      "before_message_id": 1874,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 1878,
+      "before_message_id": 1880,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 1883,
+      "before_message_id": 1886,
+      "missing_id_count": 2,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 1887,
+      "before_message_id": 1892,
+      "missing_id_count": 4,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 1895,
+      "before_message_id": 1897,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    }
+  ],
+  "errors": [],
+  "pages": [
+    {
+      "source_url": "https://t.me/s/postypashki_old",
+      "final_url": "https://t.me/s/postypashki_old",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "collected_at": "2026-09-12T08:05:21+00:00",
+      "http_error": null,
+      "page_number": 1,
+      "raw_file": "raw/page_001.html",
+      "sha256": "b8df1540c8164b69932b0fcb5993248cd0f56aa678bb3d9ede5146fcdc4c8ca4",
+      "parsed_posts": 14,
+      "new_unique_posts": 14,
+      "next_source_url": "https://t.me/s/postypashki_old?before=1880",
+      "seen_min_published_at": "2026-09-06T09:06:06+00:00",
+      "seen_max_published_at": "2026-09-11T13:37:42+00:00",
+      "parse_errors": []
+    },
+    {
+      "source_url": "https://t.me/s/postypashki_old?before=1880",
+      "final_url": "https://t.me/s/postypashki_old?before=1880",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "collected_at": "2026-09-12T08:05:22+00:00",
+      "http_error": null,
+      "page_number": 2,
+      "raw_file": "raw/page_002.html",
+      "sha256": "c892c2bab313fb372bf35fdcbc8b2b8029351c86dbb40b52946d98845eecb0a8",
+      "parsed_posts": 20,
+      "new_unique_posts": 20,
+      "next_source_url": "https://t.me/s/postypashki_old?before=1855",
+      "seen_min_published_at": "2026-08-18T16:05:48+00:00",
+      "seen_max_published_at": "2026-09-03T16:06:06+00:00",
+      "parse_errors": []
+    },
+    {
+      "source_url": "https://t.me/s/postypashki_old?before=1855",
+      "final_url": "https://t.me/s/postypashki_old?before=1855",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "collected_at": "2026-09-12T08:05:24+00:00",
+      "http_error": null,
+      "page_number": 3,
+      "raw_file": "raw/page_003.html",
+      "sha256": "a7bfe91e4ef7fe2c5f366c41240f9ddd08102af57896219f71b877a27a0e852a",
+      "parsed_posts": 18,
+      "new_unique_posts": 18,
+      "next_source_url": "https://t.me/s/postypashki_old?before=1833",
+      "seen_min_published_at": "2026-08-07T14:22:16+00:00",
+      "seen_max_published_at": "2026-08-17T16:05:47+00:00",
+      "parse_errors": []
+    },
+    {
+      "source_url": "https://t.me/s/postypashki_old?before=1833",
+      "final_url": "https://t.me/s/postypashki_old?before=1833",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "collected_at": "2026-09-12T08:05:25+00:00",
+      "http_error": null,
+      "page_number": 4,
+      "raw_file": "raw/page_004.html",
+      "sha256": "dca03f828a2ca546daa6643298e21238032303840c333001e0afa74a5306500d",
+      "parsed_posts": 17,
+      "new_unique_posts": 17,
+      "next_source_url": "https://t.me/s/postypashki_old?before=1805",
+      "seen_min_published_at": "2026-07-21T16:26:14+00:00",
+      "seen_max_published_at": "2026-08-06T16:23:59+00:00",
+      "parse_errors": []
+    },
+    {
+      "source_url": "https://t.me/s/postypashki_old?before=1805",
+      "final_url": "https://t.me/s/postypashki_old?before=1805",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "collected_at": "2026-09-12T08:05:26+00:00",
+      "http_error": null,
+      "page_number": 5,
+      "raw_file": "raw/page_005.html",
+      "sha256": "ce57914b2957e47da2af770dad0e5e4e056fa13acdff8e0616117c0e371bf58d",
+      "parsed_posts": 17,
+      "new_unique_posts": 17,
+      "next_source_url": "https://t.me/s/postypashki_old?before=1780",
+      "seen_min_published_at": "2026-07-11T16:04:31+00:00",
+      "seen_max_published_at": "2026-07-21T14:04:33+00:00",
+      "parse_errors": []
+    }
+  ],
+  "limitations": [
+    "Only posts/fields exposed by Telegram public web HTML were observed.",
+    "Missing IDs do not prove deleted posts; grouped media also uses IDs.",
+    "No account/session, private channels, chat history or attachments were accessed.",
+    "views_raw is a rounded aggregate counter, not clicks or individual visits.",
+    "Posts and counters can change; this snapshot does not attribute buyers or advertising effects."
+  ]
+}

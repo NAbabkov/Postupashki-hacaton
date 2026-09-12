@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "data_origin": "real_public_telegram_html",
+  "source_type": "telegram_public_web",
+  "channel_username": "postypashki_mems",
+  "mode": "live_http",
+  "replay_from": null,
+  "started_at": "2026-09-12T08:07:56+00:00",
+  "finished_at": "2026-09-12T08:08:00+00:00",
+  "requested_range": {
+    "start": "2026-08-04",
+    "end": "2026-09-10",
+    "date_timezone": "UTC",
+    "inclusive": true
+  },
+  "max_pages": 20,
+  "pages_requested": 4,
+  "pages_saved": 4,
+  "seen_min_published_at": "2026-07-15T13:50:07+00:00",
+  "seen_max_published_at": "2026-09-11T16:30:34+00:00",
+  "unique_observed_posts": 72,
+  "posts_in_requested_range": 51,
+  "undated_posts": 0,
+  "duplicate_containers": 0,
+  "observed_older_navigation_exhausted": false,
+  "requested_lower_bound_reached": true,
+  "stop_reason": "requested_lower_bound_reached",
+  "unfollowed_observed_next_url": "https://t.me/s/postypashki_mems?before=1339",
+  "full_archive_claimed": false,
+  "gaps": "unknown",
+  "observed_id_discontinuities": [
+    {
+      "after_message_id": 1341,
+      "before_message_id": 1343,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 1355,
+      "before_message_id": 1359,
+      "missing_id_count": 3,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 1363,
+      "before_message_id": 1366,
+      "missing_id_count": 2,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 1369,
+      "before_message_id": 1371,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 1373,
+      "before_message_id": 1375,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 1395,
+      "before_message_id": 1397,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 1398,
+      "before_message_id": 1400,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 1403,
+      "before_message_id": 1405,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 1407,
+      "before_message_id": 1409,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 1416,
+      "before_message_id": 1421,
+      "missing_id_count": 4,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 1421,
+      "before_message_id": 1423,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    }
+  ],
+  "errors": [],
+  "pages": [
+    {
+      "source_url": "https://t.me/s/postypashki_mems",
+      "final_url": "https://t.me/s/postypashki_mems",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "collected_at": "2026-09-12T08:07:56+00:00",
+      "http_error": null,
+      "page_number": 1,
+      "raw_file": "raw/page_001.html",
+      "sha256": "1491ee24dfd70557fedcf8b7787286edaaff7c3ab95b04911b9eba7ed5b39366",
+      "parsed_posts": 15,
+      "new_unique_posts": 15,
+      "next_source_url": "https://t.me/s/postypashki_mems?before=1407",
+      "seen_min_published_at": "2026-09-01T16:02:18+00:00",
+      "seen_max_published_at": "2026-09-11T16:30:34+00:00",
+      "parse_errors": []
+    },
+    {
+      "source_url": "https://t.me/s/postypashki_mems?before=1407",
+      "final_url": "https://t.me/s/postypashki_mems?before=1407",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "collected_at": "2026-09-12T08:07:57+00:00",
+      "http_error": null,
+      "page_number": 2,
+      "raw_file": "raw/page_002.html",
+      "sha256": "2b0a509c9a46186cda7c7c027a21270d4bae77053b180ad0c3764631b18ffddd",
+      "parsed_posts": 20,
+      "new_unique_posts": 20,
+      "next_source_url": "https://t.me/s/postypashki_mems?before=1384",
+      "seen_min_published_at": "2026-08-12T16:05:25+00:00",
+      "seen_max_published_at": "2026-08-31T17:02:04+00:00",
+      "parse_errors": []
+    },
+    {
+      "source_url": "https://t.me/s/postypashki_mems?before=1384",
+      "final_url": "https://t.me/s/postypashki_mems?before=1384",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "collected_at": "2026-09-12T08:07:58+00:00",
+      "http_error": null,
+      "page_number": 3,
+      "raw_file": "raw/page_003.html",
+      "sha256": "08fe54fb1f0a84a6243868479271797ad6c4dea73926f0b8650f961c106d4a53",
+      "parsed_posts": 20,
+      "new_unique_posts": 20,
+      "next_source_url": "https://t.me/s/postypashki_mems?before=1360",
+      "seen_min_published_at": "2026-07-30T15:43:44+00:00",
+      "seen_max_published_at": "2026-08-11T16:50:26+00:00",
+      "parse_errors": []
+    },
+    {
+      "source_url": "https://t.me/s/postypashki_mems?before=1360",
+      "final_url": "https://t.me/s/postypashki_mems?before=1360",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "collected_at": "2026-09-12T08:07:59+00:00",
+      "http_error": null,
+      "page_number": 4,
+      "raw_file": "raw/page_004.html",
+      "sha256": "4cb0dcf942a767d3e9a0448513322881a54e38bc8099d2b7edf41105a2fd9130",
+      "parsed_posts": 17,
+      "new_unique_posts": 17,
+      "next_source_url": "https://t.me/s/postypashki_mems?before=1339",
+      "seen_min_published_at": "2026-07-15T13:50:07+00:00",
+      "seen_max_published_at": "2026-07-30T11:36:51+00:00",
+      "parse_errors": []
+    }
+  ],
+  "limitations": [
+    "Only posts/fields exposed by Telegram public web HTML were observed.",
+    "Missing IDs do not prove deleted posts; grouped media also uses IDs.",
+    "No account/session, private channels, chat history or attachments were accessed.",
+    "views_raw is a rounded aggregate counter, not clicks or individual visits.",
+    "Posts and counters can change; this snapshot does not attribute buyers or advertising effects."
+  ]
+}

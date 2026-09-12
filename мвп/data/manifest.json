@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "historical_rows": 795,
+  "historical_unique_users": 606,
+  "observed_posts": 182,
+  "calendar_posts": 62,
+  "period": [
+    "2026-08-04",
+    "2026-09-10"
+  ],
+  "synthetic_seed": 20260912,
+  "synthetic_version": 3,
+  "synthetic_potential_users": 66,
+  "synthetic_separate_user_namespace": true,
+  "purchase_timezone": "unknown",
+  "amounts": "case-provided; partly approximate; not audited revenue",
+  "paid_placements": "not established",
+  "source_hashes": {
+    "observed_posts.jsonl": "01e6f3eae37ebb42e30542197a071c97c05b72583f86b3cec2cefec1663fc99f",
+    "reviewed_posts.csv": "025f52a0bdeb90c74ad0c1dd03a875f0a32006eabce3839bf946327d089a972b",
+    "purchases.xlsx": "4e001fc8e1dcd1ab572b14721c4cd9f6b3fa14a4c76f94bb3d050a1adea0f70c"
+  },
+  "shared_research": "https://chatgpt.com/share/6aa525ac-cd04-83ed-9045-28601703f4e4",
+  "source_sheets": "https://docs.google.com/spreadsheets/d/1tXYSKmijPZF4saVzjcz0m-So8bzkqplK/edit",
+  "source_colab": "https://colab.research.google.com/drive/1hNiEONvYHZc6I8RsTpyMKk5FHSdOrnfV"
+}

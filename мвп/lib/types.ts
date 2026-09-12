@@ -1,0 +1,15 @@
+export type Mode='historical'|'demo'|'live';
+export type Model='last'|'first'|'linear'|'decay';
+export type Stage='new'|'contacted'|'qualified'|'paid'|'lost';
+export interface Placement{id:string;campaignId:string;mode:Mode;title:string;channel:string;startsAt:string;endsAt:string;courses:string[];match:'explicit'|'family_candidate'|'none'|'unknown';tags:string[];status:'planned'|'ready'|'published'|'cancelled';owner:string;cost:number|null;postUrl:string;text:string;evidence:string;note:string;originUrl:string;paidStatus:string;promoCode:string;courseShares?:Record<string,number>;linkIssuedAt?:string;}
+export interface Touch{id:string;mode:Mode;userId:string;placementId:string|null;type:'click'|'start_bot'|'message'|'manager_source'|'visit'|'lead';at:string;clickId?:string;course?:string;}
+export interface Payment{id:string;mode:Mode;userId:string;course:string;amount:number;at:string;source:string;status:'paid'|'refunded';leadId?:string;refundAmount?:number;}
+export interface Lead{id:string;mode:Mode;userId:string;stage:Stage;owner:string;course:string;note:string;createdAt:string;sourcePlacementId?:string|null;}
+export interface Settings{botUsername:string;managerUsername:string;mainChannel:string;}
+export interface Workspace{placements:Placement[];events:Touch[];payments:Payment[];leads:Lead[];courses:string[];settings:Settings;campaigns?:Campaign[];economics?:CourseEconomics[];integration?:{linksReady:boolean;paymentsReady:boolean;databaseReady:boolean};}
+export interface Options{model:Model;windowDays:number;halfLifeDays:number;family:boolean;paymentOffset:number;asOf?:string;}
+export interface Allocation{paymentId:string;userId:string;course:string;paymentAt:string;amount:number;campaignId:string;placementId:string|null;weight:number;revenue:number;reason:string;basis:'estimate'|'tracked'|'synthetic'|'unknown'|'declared';grossRevenue?:number;refunds?:number;touchAt:string|null;}
+export type Selection=string[]|null;
+export interface ReportScope{mode:Mode|'all';channels:Selection;courses:Selection;campaigns:Selection;from:string;to:string;asOf:string;placements?:Selection;}
+export interface Campaign{id:string;mode:Mode;name:string;goal:string;owner:string;extraCost:number|null;estimatedAdCost:number|null;}
+export interface CourseEconomics{id:string;mode:Mode;course:string;deliveryPercent:number|null;feePercent:number|null;perSaleCost:number|null;}

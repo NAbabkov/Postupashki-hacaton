@@ -1,0 +1,17 @@
+{
+  "source_url": "https://t.me/s/postypashki_old",
+  "final_url": null,
+  "http_status": null,
+  "content_type": null,
+  "collected_at": "2026-09-12T08:06:17+00:00",
+  "http_error": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+  "page_number": 1,
+  "raw_file": null,
+  "sha256": null,
+  "parsed_posts": 0,
+  "new_unique_posts": 0,
+  "next_source_url": null,
+  "seen_min_published_at": null,
+  "seen_max_published_at": null,
+  "parse_errors": []
+}

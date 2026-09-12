@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "data_origin": "real_public_telegram_html",
+  "source_type": "telegram_public_web",
+  "channel_username": "chad_protocol",
+  "mode": "live_http",
+  "replay_from": null,
+  "started_at": "2026-09-12T08:07:53+00:00",
+  "finished_at": "2026-09-12T08:07:56+00:00",
+  "requested_range": {
+    "start": "2026-08-04",
+    "end": "2026-09-10",
+    "date_timezone": "UTC",
+    "inclusive": true
+  },
+  "max_pages": 20,
+  "pages_requested": 3,
+  "pages_saved": 3,
+  "seen_min_published_at": "2026-06-12T09:05:42+00:00",
+  "seen_max_published_at": "2026-09-10T14:35:25+00:00",
+  "unique_observed_posts": 50,
+  "posts_in_requested_range": 23,
+  "undated_posts": 0,
+  "duplicate_containers": 0,
+  "observed_older_navigation_exhausted": false,
+  "requested_lower_bound_reached": true,
+  "stop_reason": "requested_lower_bound_reached",
+  "unfollowed_observed_next_url": "https://t.me/s/chad_protocol?before=460",
+  "full_archive_claimed": false,
+  "gaps": "unknown",
+  "observed_id_discontinuities": [
+    {
+      "after_message_id": 463,
+      "before_message_id": 465,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 465,
+      "before_message_id": 469,
+      "missing_id_count": 3,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 469,
+      "before_message_id": 472,
+      "missing_id_count": 2,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 473,
+      "before_message_id": 476,
+      "missing_id_count": 2,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 476,
+      "before_message_id": 481,
+      "missing_id_count": 4,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 482,
+      "before_message_id": 487,
+      "missing_id_count": 4,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 490,
+      "before_message_id": 492,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 497,
+      "before_message_id": 499,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 504,
+      "before_message_id": 506,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 510,
+      "before_message_id": 512,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 517,
+      "before_message_id": 521,
+      "missing_id_count": 3,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 521,
+      "before_message_id": 523,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 524,
+      "before_message_id": 527,
+      "missing_id_count": 2,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 529,
+      "before_message_id": 531,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 531,
+      "before_message_id": 533,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 533,
+      "before_message_id": 535,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 535,
+      "before_message_id": 537,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 537,
+      "before_message_id": 543,
+      "missing_id_count": 5,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    }
+  ],
+  "errors": [],
+  "pages": [
+    {
+      "source_url": "https://t.me/s/chad_protocol",
+      "final_url": "https://t.me/s/chad_protocol",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "collected_at": "2026-09-12T08:07:53+00:00",
+      "http_error": null,
+      "page_number": 1,
+      "raw_file": "raw/page_001.html",
+      "sha256": "54d0f34de8c4578733d1f44bd769938083c08ca6397d1d978da0e02fa1c0ef83",
+      "parsed_posts": 13,
+      "new_unique_posts": 13,
+      "next_source_url": "https://t.me/s/chad_protocol?before=517",
+      "seen_min_published_at": "2026-08-15T12:11:09+00:00",
+      "seen_max_published_at": "2026-09-10T14:35:25+00:00",
+      "parse_errors": []
+    },
+    {
+      "source_url": "https://t.me/s/chad_protocol?before=517",
+      "final_url": "https://t.me/s/chad_protocol?before=517",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "collected_at": "2026-09-12T08:07:54+00:00",
+      "http_error": null,
+      "page_number": 2,
+      "raw_file": "raw/page_002.html",
+      "sha256": "f8a1735b0ba2d51d9cab7859299055d56212c9f8685a7461170f57f69c329865",
+      "parsed_posts": 20,
+      "new_unique_posts": 20,
+      "next_source_url": "https://t.me/s/chad_protocol?before=494",
+      "seen_min_published_at": "2026-07-22T17:05:31+00:00",
+      "seen_max_published_at": "2026-08-13T16:08:01+00:00",
+      "parse_errors": []
+    },
+    {
+      "source_url": "https://t.me/s/chad_protocol?before=494",
+      "final_url": "https://t.me/s/chad_protocol?before=494",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "collected_at": "2026-09-12T08:07:55+00:00",
+      "http_error": null,
+      "page_number": 3,
+      "raw_file": "raw/page_003.html",
+      "sha256": "8dcf902582933202129914c5ab1dc57f505e980ceeff43a4efda0ef15ec5bcd1",
+      "parsed_posts": 17,
+      "new_unique_posts": 17,
+      "next_source_url": "https://t.me/s/chad_protocol?before=460",
+      "seen_min_published_at": "2026-06-12T09:05:42+00:00",
+      "seen_max_published_at": "2026-07-22T14:05:29+00:00",
+      "parse_errors": []
+    }
+  ],
+  "limitations": [
+    "Only posts/fields exposed by Telegram public web HTML were observed.",
+    "Missing IDs do not prove deleted posts; grouped media also uses IDs.",
+    "No account/session, private channels, chat history or attachments were accessed.",
+    "views_raw is a rounded aggregate counter, not clicks or individual visits.",
+    "Posts and counters can change; this snapshot does not attribute buyers or advertising effects."
+  ]
+}

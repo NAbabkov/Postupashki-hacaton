@@ -1,0 +1,17 @@
+{
+  "source_url": "https://t.me/s/chad_protocol",
+  "final_url": "https://t.me/s/chad_protocol",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "collected_at": "2026-09-12T08:07:53+00:00",
+  "http_error": null,
+  "page_number": 1,
+  "raw_file": "raw/page_001.html",
+  "sha256": "54d0f34de8c4578733d1f44bd769938083c08ca6397d1d978da0e02fa1c0ef83",
+  "parsed_posts": 13,
+  "new_unique_posts": 13,
+  "next_source_url": "https://t.me/s/chad_protocol?before=517",
+  "seen_min_published_at": "2026-08-15T12:11:09+00:00",
+  "seen_max_published_at": "2026-09-10T14:35:25+00:00",
+  "parse_errors": []
+}

@@ -1,0 +1,2 @@
+# Already present in the Codex bundled Python runtime used for the supplied runs.
+lxml>=5,<7

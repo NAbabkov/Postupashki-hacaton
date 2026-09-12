@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "data_origin": "real_public_telegram_html",
+  "source_type": "telegram_public_web",
+  "channel_username": "postupashki",
+  "mode": "live_http",
+  "replay_from": null,
+  "started_at": "2026-09-12T08:05:18+00:00",
+  "finished_at": "2026-09-12T08:05:22+00:00",
+  "requested_range": {
+    "start": "2026-08-04",
+    "end": "2026-09-10",
+    "date_timezone": "UTC",
+    "inclusive": true
+  },
+  "max_pages": 6,
+  "pages_requested": 3,
+  "pages_saved": 3,
+  "seen_min_published_at": "2026-07-18T17:14:56+00:00",
+  "seen_max_published_at": "2026-09-11T10:43:03+00:00",
+  "unique_observed_posts": 42,
+  "posts_in_requested_range": 27,
+  "undated_posts": 0,
+  "duplicate_containers": 0,
+  "observed_older_navigation_exhausted": false,
+  "requested_lower_bound_reached": true,
+  "stop_reason": "requested_lower_bound_reached",
+  "unfollowed_observed_next_url": "https://t.me/s/postupashki?before=4649",
+  "full_archive_claimed": false,
+  "gaps": "unknown",
+  "observed_id_discontinuities": [
+    {
+      "after_message_id": 4649,
+      "before_message_id": 4651,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 4653,
+      "before_message_id": 4660,
+      "missing_id_count": 6,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 4662,
+      "before_message_id": 4673,
+      "missing_id_count": 10,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 4673,
+      "before_message_id": 4675,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 4675,
+      "before_message_id": 4677,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 4683,
+      "before_message_id": 4685,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 4685,
+      "before_message_id": 4687,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 4699,
+      "before_message_id": 4701,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 4705,
+      "before_message_id": 4712,
+      "missing_id_count": 6,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    }
+  ],
+  "errors": [],
+  "pages": [
+    {
+      "source_url": "https://t.me/s/postupashki",
+      "final_url": "https://t.me/s/postupashki",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "collected_at": "2026-09-12T08:05:18+00:00",
+      "http_error": null,
+      "page_number": 1,
+      "raw_file": "raw/page_001.html",
+      "sha256": "2f34861e136587d0065456e606a032a09bf2dc8067000fd037c9b19c98358f95",
+      "parsed_posts": 14,
+      "new_unique_posts": 14,
+      "next_source_url": "https://t.me/s/postupashki?before=4698",
+      "seen_min_published_at": "2026-08-21T14:20:55+00:00",
+      "seen_max_published_at": "2026-09-11T10:43:03+00:00",
+      "parse_errors": []
+    },
+    {
+      "source_url": "https://t.me/s/postupashki?before=4698",
+      "final_url": "https://t.me/s/postupashki?before=4698",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "collected_at": "2026-09-12T08:05:20+00:00",
+      "http_error": null,
+      "page_number": 2,
+      "raw_file": "raw/page_002.html",
+      "sha256": "3f93b0660bbdb6869225a01da9e9cf987e459904ff39b694905a9073f7a95cb6",
+      "parsed_posts": 20,
+      "new_unique_posts": 20,
+      "next_source_url": "https://t.me/s/postupashki?before=4675",
+      "seen_min_published_at": "2026-07-28T13:00:51+00:00",
+      "seen_max_published_at": "2026-08-19T07:10:19+00:00",
+      "parse_errors": []
+    },
+    {
+      "source_url": "https://t.me/s/postupashki?before=4675",
+      "final_url": "https://t.me/s/postupashki?before=4675",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "collected_at": "2026-09-12T08:05:21+00:00",
+      "http_error": null,
+      "page_number": 3,
+      "raw_file": "raw/page_003.html",
+      "sha256": "a7b44ddc7e2c2f0a78b03122b919dd0292f7aab3fe60e8994c1be460a0701ff3",
+      "parsed_posts": 8,
+      "new_unique_posts": 8,
+      "next_source_url": "https://t.me/s/postupashki?before=4649",
+      "seen_min_published_at": "2026-07-18T17:14:56+00:00",
+      "seen_max_published_at": "2026-07-25T15:42:28+00:00",
+      "parse_errors": []
+    }
+  ],
+  "limitations": [
+    "Only posts/fields exposed by Telegram public web HTML were observed.",
+    "Missing IDs do not prove deleted posts; grouped media also uses IDs.",
+    "No account/session, private channels, chat history or attachments were accessed.",
+    "views_raw is a rounded aggregate counter, not clicks or individual visits.",
+    "Posts and counters can change; this snapshot does not attribute buyers or advertising effects."
+  ]
+}

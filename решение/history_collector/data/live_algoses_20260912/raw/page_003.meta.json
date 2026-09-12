@@ -1,0 +1,17 @@
+{
+  "source_url": "https://t.me/s/algoses?before=581",
+  "final_url": "https://t.me/s/algoses?before=581",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "collected_at": "2026-09-12T08:07:52+00:00",
+  "http_error": null,
+  "page_number": 3,
+  "raw_file": "raw/page_003.html",
+  "sha256": "b1b6f8064263ea53190324b617716a996d5f12033623783312eabf82fe01d6b1",
+  "parsed_posts": 17,
+  "new_unique_posts": 17,
+  "next_source_url": "https://t.me/s/algoses?before=542",
+  "seen_min_published_at": "2026-05-04T17:09:16+00:00",
+  "seen_max_published_at": "2026-07-23T16:50:26+00:00",
+  "parse_errors": []
+}

@@ -1,0 +1,68 @@
+{
+  "records": 182,
+  "network_completeness": "unknown",
+  "date_timezone": "UTC",
+  "sources": [
+    {
+      "channel_username": "postypashki_old",
+      "role": "main_career_courses",
+      "selected_posts": 54,
+      "pages": 5,
+      "date_min": "2026-08-04T15:50:24+00:00",
+      "date_max": "2026-09-10T14:06:13+00:00",
+      "requested_lower_bound_reached": true,
+      "stop_reason": "requested_lower_bound_reached",
+      "errors": [],
+      "snapshot_dir": "data/live_postypashki_old_20260912"
+    },
+    {
+      "channel_username": "algoses",
+      "role": "associated_algorithms",
+      "selected_posts": 27,
+      "pages": 3,
+      "date_min": "2026-08-04T14:20:17+00:00",
+      "date_max": "2026-09-09T16:35:27+00:00",
+      "requested_lower_bound_reached": true,
+      "stop_reason": "requested_lower_bound_reached",
+      "errors": [],
+      "snapshot_dir": "data/live_algoses_20260912"
+    },
+    {
+      "channel_username": "chad_protocol",
+      "role": "associated_career",
+      "selected_posts": 23,
+      "pages": 3,
+      "date_min": "2026-08-04T14:49:32+00:00",
+      "date_max": "2026-09-10T14:35:25+00:00",
+      "requested_lower_bound_reached": true,
+      "stop_reason": "requested_lower_bound_reached",
+      "errors": [],
+      "snapshot_dir": "data/live_chad_protocol_20260912"
+    },
+    {
+      "channel_username": "postypashki_mems",
+      "role": "associated_memes",
+      "selected_posts": 51,
+      "pages": 4,
+      "date_min": "2026-08-04T12:41:34+00:00",
+      "date_max": "2026-09-10T19:39:00+00:00",
+      "requested_lower_bound_reached": true,
+      "stop_reason": "requested_lower_bound_reached",
+      "errors": [],
+      "snapshot_dir": "data/live_postypashki_mems_20260912"
+    },
+    {
+      "channel_username": "postupashki",
+      "role": "associated_school_direction",
+      "selected_posts": 27,
+      "pages": 3,
+      "date_min": "2026-08-04T16:51:03+00:00",
+      "date_max": "2026-09-08T17:28:53+00:00",
+      "requested_lower_bound_reached": true,
+      "stop_reason": "requested_lower_bound_reached",
+      "errors": [],
+      "snapshot_dir": "data/live_postupashki_20260912"
+    }
+  ],
+  "full_archive_claimed": false
+}

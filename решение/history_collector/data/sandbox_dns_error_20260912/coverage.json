@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "data_origin": "no_observed_public_posts",
+  "source_type": "telegram_public_web",
+  "channel_username": "postypashki_old",
+  "mode": "live_http",
+  "replay_from": null,
+  "started_at": "2026-09-12T08:06:17+00:00",
+  "finished_at": "2026-09-12T08:06:18+00:00",
+  "requested_range": {
+    "start": "2026-08-04",
+    "end": "2026-09-10",
+    "date_timezone": "UTC",
+    "inclusive": true
+  },
+  "max_pages": 1,
+  "pages_requested": 1,
+  "pages_saved": 0,
+  "seen_min_published_at": null,
+  "seen_max_published_at": null,
+  "unique_observed_posts": 0,
+  "posts_in_requested_range": 0,
+  "undated_posts": 0,
+  "duplicate_containers": 0,
+  "observed_older_navigation_exhausted": false,
+  "requested_lower_bound_reached": false,
+  "stop_reason": "http_error",
+  "unfollowed_observed_next_url": null,
+  "full_archive_claimed": false,
+  "gaps": "unknown",
+  "observed_id_discontinuities": [],
+  "errors": [
+    {
+      "type": "http_error",
+      "source_url": "https://t.me/s/postypashki_old",
+      "detail": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    }
+  ],
+  "pages": [
+    {
+      "source_url": "https://t.me/s/postypashki_old",
+      "final_url": null,
+      "http_status": null,
+      "content_type": null,
+      "collected_at": "2026-09-12T08:06:17+00:00",
+      "http_error": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "page_number": 1,
+      "raw_file": null,
+      "sha256": null,
+      "parsed_posts": 0,
+      "new_unique_posts": 0,
+      "next_source_url": null,
+      "seen_min_published_at": null,
+      "seen_max_published_at": null,
+      "parse_errors": []
+    }
+  ],
+  "limitations": [
+    "Only posts/fields exposed by Telegram public web HTML were observed.",
+    "Missing IDs do not prove deleted posts; grouped media also uses IDs.",
+    "No account/session, private channels, chat history or attachments were accessed.",
+    "views_raw is a rounded aggregate counter, not clicks or individual visits.",
+    "Posts and counters can change; this snapshot does not attribute buyers or advertising effects."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "verified_on": "2026-09-12",
+  "network_completeness": "unknown",
+  "ownership_note": "Public links establish association with the school network; legal ownership and paid placements are not established.",
+  "sources": [
+    {
+      "channel_username": "postypashki_old",
+      "role": "main_career_courses",
+      "evidence_urls": ["https://old.postypashki.ru/", "https://t.me/postypashki_old"],
+      "evidence": "Official site links to this channel and its description links back to the site."
+    },
+    {
+      "channel_username": "algoses",
+      "role": "associated_algorithms",
+      "evidence_urls": ["https://t.me/algoses/614", "https://t.me/algoses/615"],
+      "evidence": "Course announcement and forwarded publication from the main channel."
+    },
+    {
+      "channel_username": "chad_protocol",
+      "role": "associated_career",
+      "evidence_urls": ["https://t.me/chad_protocol"],
+      "evidence": "Channel description links to postypashki_old and postypashki_mems."
+    },
+    {
+      "channel_username": "postypashki_mems",
+      "role": "associated_memes",
+      "evidence_urls": ["https://t.me/postypashki_mems", "https://t.me/chad_protocol"],
+      "evidence": "Descriptions contain direct links to the main channel and common school resources."
+    },
+    {
+      "channel_username": "postupashki",
+      "role": "associated_school_direction",
+      "evidence_urls": ["https://t.me/s/postupashki?before=4681", "https://postypashki.ru/"],
+      "evidence": "School direction with official site and a direct reference to the adult direction; course relevance needs checking."
+    }
+  ],
+  "excluded_or_unconfirmed": [
+    {"channel_username": "postupashki_career", "reason": "Current placeholder description does not establish an alias to chad_protocol."},
+    {"channel_username": "matesha_shad", "reason": "Forwarded mention exists, but source verification is incomplete."},
+    {"channel_username": "postypashki_old_chat", "reason": "Discussion group, not public broadcast history; member/chat collection out of scope."},
+    {"channel_username": "botalkaaa", "reason": "Discussion group; member/chat collection out of scope."}
+  ]
+}

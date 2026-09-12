@@ -1,0 +1,354 @@
+{
+  "historical": [
+    {
+      "clock": 0,
+      "windows": [
+        {
+          "windowDays": 3,
+          "matched": 143,
+          "unknownAmount": 4938574.49
+        },
+        {
+          "windowDays": 5,
+          "matched": 176,
+          "unknownAmount": 4712684.49
+        },
+        {
+          "windowDays": 7,
+          "matched": 217,
+          "unknownAmount": 4399064.49
+        }
+      ]
+    },
+    {
+      "clock": 3,
+      "windows": [
+        {
+          "windowDays": 3,
+          "matched": 140,
+          "unknownAmount": 4959064.49
+        },
+        {
+          "windowDays": 5,
+          "matched": 165,
+          "unknownAmount": 4783589.49
+        },
+        {
+          "windowDays": 7,
+          "matched": 211,
+          "unknownAmount": 4429944.49
+        }
+      ]
+    }
+  ],
+  "demoModels": [
+    {
+      "model": "first",
+      "results": [
+        {
+          "campaign": "Набор: аналитика",
+          "course": "Аналитика про",
+          "netRevenue": 64950,
+          "ads": 18000,
+          "marketing": 20000,
+          "contribution": 39867,
+          "leads": 12,
+          "paidLeads": 5,
+          "ROAS": 3.6083333333333334,
+          "ROMI": 99.335
+        },
+        {
+          "campaign": "Набор: ML",
+          "course": "ML про",
+          "netRevenue": 59180,
+          "ads": 22000,
+          "marketing": 24500,
+          "contribution": 35683.4,
+          "leads": 12,
+          "paidLeads": 4,
+          "ROAS": 2.69,
+          "ROMI": 45.64653061224491
+        },
+        {
+          "campaign": "Набор: Backend",
+          "course": "Backend про",
+          "netRevenue": 47970,
+          "ads": 26000,
+          "marketing": 28000,
+          "contribution": 29021.100000000002,
+          "leads": 12,
+          "paidLeads": 3,
+          "ROAS": 1.845,
+          "ROMI": 3.6467857142857216
+        },
+        {
+          "campaign": "Набор: алгоритмы",
+          "course": "Алгоритмы про",
+          "netRevenue": 24612.5,
+          "ads": 14000,
+          "marketing": 15500,
+          "contribution": 14305.880000000001,
+          "leads": 12,
+          "paidLeads": 3,
+          "ROAS": 1.7580357142857144,
+          "ROMI": -7.703999999999993
+        },
+        {
+          "campaign": "Источник неизвестен",
+          "course": "AI агенты",
+          "netRevenue": 8950,
+          "ads": 0,
+          "marketing": 0,
+          "contribution": 5586,
+          "leads": 0,
+          "paidLeads": 0,
+          "ROAS": null,
+          "ROMI": null
+        },
+        {
+          "campaign": "Аналитика: тест новой аудитории",
+          "course": "Аналитика про",
+          "netRevenue": 0,
+          "ads": 4500,
+          "marketing": 5000,
+          "contribution": 0,
+          "leads": 0,
+          "paidLeads": 0,
+          "ROAS": 0,
+          "ROMI": -100
+        }
+      ]
+    },
+    {
+      "model": "last",
+      "results": [
+        {
+          "campaign": "Набор: ML",
+          "course": "ML про",
+          "netRevenue": 59180,
+          "ads": 22000,
+          "marketing": 24500,
+          "contribution": 35683.4,
+          "leads": 12,
+          "paidLeads": 4,
+          "ROAS": 2.69,
+          "ROMI": 45.64653061224491
+        },
+        {
+          "campaign": "Набор: аналитика",
+          "course": "Аналитика про",
+          "netRevenue": 51960,
+          "ads": 18000,
+          "marketing": 20000,
+          "contribution": 31893.6,
+          "leads": 12,
+          "paidLeads": 5,
+          "ROAS": 2.8866666666666667,
+          "ROMI": 59.46799999999999
+        },
+        {
+          "campaign": "Набор: Backend",
+          "course": "Backend про",
+          "netRevenue": 47970,
+          "ads": 26000,
+          "marketing": 28000,
+          "contribution": 29021.100000000002,
+          "leads": 12,
+          "paidLeads": 3,
+          "ROAS": 1.845,
+          "ROMI": 3.6467857142857216
+        },
+        {
+          "campaign": "Набор: алгоритмы",
+          "course": "Алгоритмы про",
+          "netRevenue": 24612.5,
+          "ads": 14000,
+          "marketing": 15500,
+          "contribution": 14305.880000000001,
+          "leads": 12,
+          "paidLeads": 3,
+          "ROAS": 1.7580357142857144,
+          "ROMI": -7.703999999999993
+        },
+        {
+          "campaign": "Аналитика: тест новой аудитории",
+          "course": "Аналитика про",
+          "netRevenue": 12990,
+          "ads": 4500,
+          "marketing": 5000,
+          "contribution": 7973.4,
+          "leads": 0,
+          "paidLeads": 0,
+          "ROAS": 2.8866666666666667,
+          "ROMI": 59.46799999999999
+        },
+        {
+          "campaign": "Источник неизвестен",
+          "course": "AI агенты",
+          "netRevenue": 8950,
+          "ads": 0,
+          "marketing": 0,
+          "contribution": 5586,
+          "leads": 0,
+          "paidLeads": 0,
+          "ROAS": null,
+          "ROMI": null
+        }
+      ]
+    },
+    {
+      "model": "linear",
+      "results": [
+        {
+          "campaign": "Набор: ML",
+          "course": "ML про",
+          "netRevenue": 59180,
+          "ads": 22000,
+          "marketing": 24500,
+          "contribution": 35683.4,
+          "leads": 12,
+          "paidLeads": 4,
+          "ROAS": 2.69,
+          "ROMI": 45.64653061224491
+        },
+        {
+          "campaign": "Набор: аналитика",
+          "course": "Аналитика про",
+          "netRevenue": 51960,
+          "ads": 18000,
+          "marketing": 20000,
+          "contribution": 31893.600000000002,
+          "leads": 12,
+          "paidLeads": 5,
+          "ROAS": 2.8866666666666667,
+          "ROMI": 59.46800000000001
+        },
+        {
+          "campaign": "Набор: Backend",
+          "course": "Backend про",
+          "netRevenue": 47970,
+          "ads": 26000,
+          "marketing": 28000,
+          "contribution": 29021.100000000002,
+          "leads": 12,
+          "paidLeads": 3,
+          "ROAS": 1.845,
+          "ROMI": 3.6467857142857216
+        },
+        {
+          "campaign": "Набор: алгоритмы",
+          "course": "Алгоритмы про",
+          "netRevenue": 24612.5,
+          "ads": 14000,
+          "marketing": 15500,
+          "contribution": 14305.880000000001,
+          "leads": 12,
+          "paidLeads": 3,
+          "ROAS": 1.7580357142857144,
+          "ROMI": -7.703999999999993
+        },
+        {
+          "campaign": "Аналитика: тест новой аудитории",
+          "course": "Аналитика про",
+          "netRevenue": 12990,
+          "ads": 4500,
+          "marketing": 5000,
+          "contribution": 7973.4,
+          "leads": 0,
+          "paidLeads": 0,
+          "ROAS": 2.8866666666666667,
+          "ROMI": 59.46799999999999
+        },
+        {
+          "campaign": "Источник неизвестен",
+          "course": "AI агенты",
+          "netRevenue": 8950,
+          "ads": 0,
+          "marketing": 0,
+          "contribution": 5586,
+          "leads": 0,
+          "paidLeads": 0,
+          "ROAS": null,
+          "ROMI": null
+        }
+      ]
+    },
+    {
+      "model": "decay",
+      "results": [
+        {
+          "campaign": "Набор: ML",
+          "course": "ML про",
+          "netRevenue": 59180,
+          "ads": 22000,
+          "marketing": 24500,
+          "contribution": 35683.4,
+          "leads": 12,
+          "paidLeads": 4,
+          "ROAS": 2.69,
+          "ROMI": 45.64653061224491
+        },
+        {
+          "campaign": "Набор: аналитика",
+          "course": "Аналитика про",
+          "netRevenue": 51921.70322869624,
+          "ads": 18000,
+          "marketing": 20000,
+          "contribution": 31870.093034925834,
+          "leads": 12,
+          "paidLeads": 5,
+          "ROAS": 2.8845390682609025,
+          "ROMI": 59.35046517462917
+        },
+        {
+          "campaign": "Набор: Backend",
+          "course": "Backend про",
+          "netRevenue": 47970,
+          "ads": 26000,
+          "marketing": 28000,
+          "contribution": 29021.100000000002,
+          "leads": 12,
+          "paidLeads": 3,
+          "ROAS": 1.845,
+          "ROMI": 3.6467857142857216
+        },
+        {
+          "campaign": "Набор: алгоритмы",
+          "course": "Алгоритмы про",
+          "netRevenue": 24612.5,
+          "ads": 14000,
+          "marketing": 15500,
+          "contribution": 14305.880000000001,
+          "leads": 12,
+          "paidLeads": 3,
+          "ROAS": 1.7580357142857144,
+          "ROMI": -7.703999999999993
+        },
+        {
+          "campaign": "Аналитика: тест новой аудитории",
+          "course": "Аналитика про",
+          "netRevenue": 13028.296771303758,
+          "ads": 4500,
+          "marketing": 5000,
+          "contribution": 7996.906965074163,
+          "leads": 0,
+          "paidLeads": 0,
+          "ROAS": 2.8951770602897238,
+          "ROMI": 59.93813930148326
+        },
+        {
+          "campaign": "Источник неизвестен",
+          "course": "AI агенты",
+          "netRevenue": 8950,
+          "ads": 0,
+          "marketing": 0,
+          "contribution": 5586,
+          "leads": 0,
+          "paidLeads": 0,
+          "ROAS": null,
+          "ROMI": null
+        }
+      ]
+    }
+  ]
+}

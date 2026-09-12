@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "data_origin": "real_public_telegram_html",
+  "source_type": "telegram_public_web",
+  "channel_username": "algoses",
+  "mode": "live_http",
+  "replay_from": null,
+  "started_at": "2026-09-12T08:07:49+00:00",
+  "finished_at": "2026-09-12T08:07:52+00:00",
+  "requested_range": {
+    "start": "2026-08-04",
+    "end": "2026-09-10",
+    "date_timezone": "UTC",
+    "inclusive": true
+  },
+  "max_pages": 20,
+  "pages_requested": 3,
+  "pages_saved": 3,
+  "seen_min_published_at": "2026-05-04T17:09:16+00:00",
+  "seen_max_published_at": "2026-09-09T16:35:27+00:00",
+  "unique_observed_posts": 52,
+  "posts_in_requested_range": 27,
+  "undated_posts": 0,
+  "duplicate_containers": 0,
+  "observed_older_navigation_exhausted": false,
+  "requested_lower_bound_reached": true,
+  "stop_reason": "requested_lower_bound_reached",
+  "unfollowed_observed_next_url": "https://t.me/s/algoses?before=542",
+  "full_archive_claimed": false,
+  "gaps": "unknown",
+  "observed_id_discontinuities": [
+    {
+      "after_message_id": 542,
+      "before_message_id": 544,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 544,
+      "before_message_id": 548,
+      "missing_id_count": 3,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 548,
+      "before_message_id": 550,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 550,
+      "before_message_id": 553,
+      "missing_id_count": 2,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 553,
+      "before_message_id": 555,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 557,
+      "before_message_id": 559,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 559,
+      "before_message_id": 566,
+      "missing_id_count": 6,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 566,
+      "before_message_id": 570,
+      "missing_id_count": 3,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 570,
+      "before_message_id": 574,
+      "missing_id_count": 3,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 576,
+      "before_message_id": 578,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 581,
+      "before_message_id": 583,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 602,
+      "before_message_id": 611,
+      "missing_id_count": 8,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 616,
+      "before_message_id": 618,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    },
+    {
+      "after_message_id": 621,
+      "before_message_id": 623,
+      "missing_id_count": 1,
+      "reason": "unknown: grouped media, unavailable/deleted posts or other Telegram numbering"
+    }
+  ],
+  "errors": [],
+  "pages": [
+    {
+      "source_url": "https://t.me/s/algoses",
+      "final_url": "https://t.me/s/algoses",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "collected_at": "2026-09-12T08:07:49+00:00",
+      "http_error": null,
+      "page_number": 1,
+      "raw_file": "raw/page_001.html",
+      "sha256": "5f26e31948cb9bb079717b88d655bbd6bc5e904fbc3940e7a722a3ce47991de1",
+      "parsed_posts": 15,
+      "new_unique_posts": 15,
+      "next_source_url": "https://t.me/s/algoses?before=602",
+      "seen_min_published_at": "2026-08-20T09:15:23+00:00",
+      "seen_max_published_at": "2026-09-09T16:35:27+00:00",
+      "parse_errors": []
+    },
+    {
+      "source_url": "https://t.me/s/algoses?before=602",
+      "final_url": "https://t.me/s/algoses?before=602",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "collected_at": "2026-09-12T08:07:51+00:00",
+      "http_error": null,
+      "page_number": 2,
+      "raw_file": "raw/page_002.html",
+      "sha256": "dd433854a58f4faead0f260f79030676621c02a8789cbff710af69103e3ce085",
+      "parsed_posts": 20,
+      "new_unique_posts": 20,
+      "next_source_url": "https://t.me/s/algoses?before=581",
+      "seen_min_published_at": "2026-07-25T09:10:19+00:00",
+      "seen_max_published_at": "2026-08-13T14:37:20+00:00",
+      "parse_errors": []
+    },
+    {
+      "source_url": "https://t.me/s/algoses?before=581",
+      "final_url": "https://t.me/s/algoses?before=581",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "collected_at": "2026-09-12T08:07:52+00:00",
+      "http_error": null,
+      "page_number": 3,
+      "raw_file": "raw/page_003.html",
+      "sha256": "b1b6f8064263ea53190324b617716a996d5f12033623783312eabf82fe01d6b1",
+      "parsed_posts": 17,
+      "new_unique_posts": 17,
+      "next_source_url": "https://t.me/s/algoses?before=542",
+      "seen_min_published_at": "2026-05-04T17:09:16+00:00",
+      "seen_max_published_at": "2026-07-23T16:50:26+00:00",
+      "parse_errors": []
+    }
+  ],
+  "limitations": [
+    "Only posts/fields exposed by Telegram public web HTML were observed.",
+    "Missing IDs do not prove deleted posts; grouped media also uses IDs.",
+    "No account/session, private channels, chat history or attachments were accessed.",
+    "views_raw is a rounded aggregate counter, not clicks or individual visits.",
+    "Posts and counters can change; this snapshot does not attribute buyers or advertising effects."
+  ]
+}

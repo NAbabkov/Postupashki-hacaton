@@ -1,0 +1,12 @@
+{
+  "data_origin": "real_public_telegram_html",
+  "source_url": "https://t.me/s/postypashki_old",
+  "final_url": "https://t.me/s/postypashki_old",
+  "http_status": 200,
+  "collection_command": "urllib.request.urlopen(public_url, timeout=25)",
+  "filesystem_mtime_utc": "2026-09-12T08:02:18.092077+00:00",
+  "timestamp_basis": "filesystem mtime; original request start was not recorded",
+  "sha256": "04e3b29c3a35e3f6d4a78f915919c5bfeeafa6122e7c756c89a611291dec1493",
+  "bytes": 150901,
+  "purpose": "inspect actual HTML navigation before implementing CLI; not counted in live snapshot"
+}

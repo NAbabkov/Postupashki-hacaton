@@ -1,0 +1,17 @@
+{
+  "source_url": "https://t.me/s/postypashki_old?before=1880",
+  "final_url": "https://t.me/s/postypashki_old?before=1880",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "collected_at": "2026-09-12T08:05:22+00:00",
+  "http_error": null,
+  "page_number": 2,
+  "raw_file": "raw/page_002.html",
+  "sha256": "c892c2bab313fb372bf35fdcbc8b2b8029351c86dbb40b52946d98845eecb0a8",
+  "parsed_posts": 20,
+  "new_unique_posts": 20,
+  "next_source_url": "https://t.me/s/postypashki_old?before=1855",
+  "seen_min_published_at": "2026-08-18T16:05:48+00:00",
+  "seen_max_published_at": "2026-09-03T16:06:06+00:00",
+  "parse_errors": []
+}

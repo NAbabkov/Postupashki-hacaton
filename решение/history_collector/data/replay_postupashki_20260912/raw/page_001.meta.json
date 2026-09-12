@@ -1,0 +1,17 @@
+{
+  "source_url": "https://t.me/s/postupashki",
+  "final_url": "https://t.me/s/postupashki",
+  "http_status": 200,
+  "content_type": "text/html; charset=utf-8",
+  "collected_at": "2026-09-12T08:05:18+00:00",
+  "http_error": null,
+  "page_number": 1,
+  "raw_file": "raw/page_001.html",
+  "sha256": "2f34861e136587d0065456e606a032a09bf2dc8067000fd037c9b19c98358f95",
+  "parsed_posts": 14,
+  "new_unique_posts": 14,
+  "next_source_url": "https://t.me/s/postupashki?before=4698",
+  "seen_min_published_at": "2026-08-21T14:20:55+00:00",
+  "seen_max_published_at": "2026-09-11T10:43:03+00:00",
+  "parse_errors": []
+}

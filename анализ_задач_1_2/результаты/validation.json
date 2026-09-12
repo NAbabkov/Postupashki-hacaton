@@ -1,0 +1,30 @@
+{
+  "rows": 795,
+  "anonymous_ids": 606,
+  "products": 18,
+  "amount_kopecks": 590467167,
+  "exact_duplicate_rows": 0,
+  "missing_values": 0,
+  "candidate_order_groups": 628,
+  "multi_course_groups": 153,
+  "ids_with_multiple_timestamps": 20,
+  "posts": 182,
+  "null_text_posts": 12,
+  "marketing_status_counts_all_channels": {
+    "non_marketing": 63,
+    "candidate": 28,
+    "confirmed": 63,
+    "unknown": 28
+  },
+  "core_activity_posts": 80,
+  "timezone_scenarios_not_facts": [
+    0,
+    3
+  ],
+  "no_individual_attribution": true,
+  "inputs_sha256": {
+    "base.xlsx": "4e001fc8e1dcd1ab572b14721c4cd9f6b3fa14a4c76f94bb3d050a1adea0f70c",
+    "marketing_history_20260804_20260910.jsonl": "01e6f3eae37ebb42e30542197a071c97c05b72583f86b3cec2cefec1663fc99f",
+    "marketing_events.csv": "882a778deca9405661ea9d3ff43c7c2fecd04877c3368e1648a21f10f04cccf2"
+  }
+}

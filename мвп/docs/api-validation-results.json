@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "count": 17,
+  "checks": [
+    "Case data and D1 loaded",
+    "Historical placement immutable",
+    "Invalid dates, costs and URLs rejected",
+    "Course budget shares must conserve 100 percent",
+    "Foreign browser origin rejected",
+    "Trusted payment import needs authentication",
+    "Historical links and direct form without visitor rejected",
+    "Unique link records first-party visitor and redirects to course form",
+    "Second campaign link preserves the same visitor",
+    "Form binds course and first source; repeated form is idempotent",
+    "Manager stage persists; paid status requires registered payment",
+    "Payment matches its course opportunity and is not doubled",
+    "Partial refund persists without deleting original payment",
+    "Links are released once per placement; planned and historical redirects remain inactive",
+    "Post association and release date persist; a source with visits cannot be reassigned",
+    "Campaign metadata and other marketing costs saved",
+    "Course unit economics saved and validated"
+  ],
+  "environment": "local D1; fictional link visitor/form/payments only; no external bot or payment calls"
+}

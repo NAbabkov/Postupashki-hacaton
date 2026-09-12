@@ -1,0 +1,6 @@
+{"snapshot": "/Users/a1/Documents/стартапы/хакатон поступашки/решение/history_collector/data/live_postypashki_old_20260912", "validated_observed": 86, "validated_selected": 54, "validated_raw_pages": 5, "null_text_posts": 10, "undated_posts": 0, "coverage_errors": 0}
+{"snapshot": "/Users/a1/Documents/стартапы/хакатон поступашки/решение/history_collector/data/replay_postypashki_old_20260912", "validated_observed": 86, "validated_selected": 54, "validated_raw_pages": 5, "null_text_posts": 10, "undated_posts": 0, "coverage_errors": 0}
+Offline replay is identical for both JSONL files.
+{"snapshot": "/Users/a1/Documents/стартапы/хакатон поступашки/решение/history_collector/data/live_postupashki_20260912", "validated_observed": 42, "validated_selected": 27, "validated_raw_pages": 3, "null_text_posts": 3, "undated_posts": 0, "coverage_errors": 0}
+{"snapshot": "/Users/a1/Documents/стартапы/хакатон поступашки/решение/history_collector/data/replay_postupashki_20260912", "validated_observed": 42, "validated_selected": 27, "validated_raw_pages": 3, "null_text_posts": 3, "undated_posts": 0, "coverage_errors": 0}
+Offline replay is identical for both JSONL files.
