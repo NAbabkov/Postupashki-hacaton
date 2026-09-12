@@ -23,6 +23,7 @@ export async function workspace():Promise<Workspace>{
  base.settings.botUsername=vars.TELEGRAM_BOT_USERNAME??DEFAULT_BOT;
  for(const p of base.placements.filter(p=>p.mode!=='historical'&&p.linkIssuedAt)){try{const r=await botReferral(p,base.settings.botUsername);Object.assign(p,{botTrackingKey:r.botTrackingKey,botSourceCode:r.botSourceCode,botStartParam:r.botStartParam});}catch{/* Invalid legacy links must be repaired explicitly, not truncated. */}}
  base.integration={databaseReady:ready,linksReady:ready,paymentsReady:!!vars.INGEST_KEY,publicAppUrl:vars.PUBLIC_APP_URL??'',botImportReady:!!vars.BOT_IMPORT_SALT&&vars.BOT_IMPORT_SALT.length>=32};
+ try{const config=await binding().prepare('SELECT payload FROM bot_runtime WHERE key=?').bind('config').first<{payload:string}>();base.integration.telegramReady=!!vars.TELEGRAM_BOT_TOKEN&&!!vars.TELEGRAM_WEBHOOK_SECRET;base.integration.telegramEnabled=!!config&&!!JSON.parse(config.payload).enabled;}catch{base.integration.telegramReady=false;base.integration.telegramEnabled=false;}
  return normalizeWorkspace(base);
 }
 export async function save(kind:Kind,value:Placement|Touch|Payment|Lead|Settings|Campaign|CourseEconomics,replace=true){

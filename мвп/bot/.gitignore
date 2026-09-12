@@ -1,0 +1,4 @@
+.env
+.venv/
+events.csv
+__pycache__/

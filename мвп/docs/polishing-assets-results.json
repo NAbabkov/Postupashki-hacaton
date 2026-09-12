@@ -1,0 +1,15 @@
+{
+  "version": "52140aa7-065d-42de-a5b3-894bde80940a",
+  "checks": [
+    {
+      "file": "solution.pdf",
+      "ok": true,
+      "sha256": "2c59ca5cc7af812d3e5f6578657bf62336d8b8567086651b7cc39753e4d589ec"
+    },
+    {
+      "file": "solution.pptx",
+      "ok": true,
+      "sha256": "9f9541fd1b586e32165168405b7780358cce3a8bc343755a14e2dfd6d7915182"
+    }
+  ]
+}

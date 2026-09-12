@@ -1,5 +1,5 @@
 {
-  "name": "postupili-marketing",
+  "name": "nastupashki-marketing",
   "version": "0.1.0",
   "private": true,
   "engines": {
@@ -15,7 +15,10 @@
     "test": "node scripts/run_tests.mjs",
     "typecheck": "tsc --noEmit",
     "test:api": "python3 scripts/test_api.py",
-    "deploy:cloudflare": "node scripts/deploy_cloudflare.mjs"
+    "deploy:cloudflare": "node scripts/deploy_cloudflare.mjs",
+    "bot:start": "bash scripts/run_bot.sh",
+    "bot:check": "bot/.venv/bin/python scripts/check_telegram_bot.py",
+    "bot:test": "bot/.venv/bin/python scripts/test_bot.py"
   },
   "dependencies": {
     "@base-ui/react": "1.7.0",

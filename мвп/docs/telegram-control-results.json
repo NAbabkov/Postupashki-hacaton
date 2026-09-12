@@ -1,0 +1,67 @@
+{
+  "team": "Наступашки",
+  "checks": [
+    {
+      "name": "Public bot control protected",
+      "ok": true
+    },
+    {
+      "name": "Public CSV protected",
+      "ok": true
+    },
+    {
+      "name": "Forged webhook rejected",
+      "ok": true
+    },
+    {
+      "name": "Team login on independent laptop session",
+      "ok": true
+    },
+    {
+      "name": "Team login on independent laptop session",
+      "ok": true
+    },
+    {
+      "name": "Server token and existing bot recognized",
+      "ok": true
+    },
+    {
+      "name": "Cross-origin control blocked",
+      "ok": true
+    },
+    {
+      "name": "Same settings persist from second session",
+      "ok": true
+    },
+    {
+      "name": "Welcome and manager save",
+      "ok": true
+    },
+    {
+      "name": "Enable server webhook without dropping queue",
+      "ok": true
+    },
+    {
+      "name": "Webhook connected",
+      "ok": true
+    },
+    {
+      "name": "Second session sees enabled state",
+      "ok": true
+    },
+    {
+      "name": "Anonymous eight-column CSV available",
+      "ok": true
+    },
+    {
+      "name": "Workspace exposes enabled integration",
+      "ok": true
+    }
+  ],
+  "passed": 14,
+  "total": 14,
+  "connected": true,
+  "pendingAfterEnable": 0,
+  "outboundTestMessages": 0,
+  "getUpdatesCalls": 0
+}

@@ -44,3 +44,8 @@ next-env.d.ts
 
 # Deployment configuration is local until the team account is connected
 /deployment/cloudflare.json
+
+# Local polling bot, raw CSV and virtual environment
+/bot/.venv/
+/bot/events.csv
+**/__pycache__/

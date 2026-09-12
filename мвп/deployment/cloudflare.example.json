@@ -1,6 +1,6 @@
 {
- "name": "demo-komandy-postupili",
- "database_name": "postupili-marketing-production",
- "database_id": "SET_REAL_PRODUCTION_D1_ID",
- "public_app_url": "SET_ACTUAL_WORKERS_DEV_ORIGIN"
+  "name": "demo-komandy-nastupashki",
+  "database_name": "postupili-marketing-production",
+  "database_id": "SET_REAL_PRODUCTION_D1_ID",
+  "public_app_url": "SET_ACTUAL_WORKERS_DEV_ORIGIN"
 }
